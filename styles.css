@@ -57,8 +57,13 @@ img{
 	}
 }
 
+h1{
+	font-weight: 300;
+	font-size: 1.7rem;
+}
+
 .home-top-title{
-	padding-top: 2.25em;
+	padding-top: 3.5em;
 	font-size: 3rem;
 	font-weight: 900;
 	color: white;
@@ -149,3 +154,54 @@ nav a:hover, nav a:focus{
 	margin-left: 1em;
 	margin-right: 1em;
 }
+
+.home-textbox{
+	background-color: #383333;
+	padding: 4em;
+	width: 100vw;
+	margin-left: -2.6%;
+	outline: 2px solid rgb(0,255,128);
+	outline-offset: -2.5em;
+	color: white;
+	position: relative;
+
+}
+
+.home-textbox h1{
+	color: rgb(0,255,128);
+	position: absolute;
+	top: -.15em;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: #383333;
+	padding: 0 1rem;
+	margin-bottom: 2em;
+
+}
+
+.home-textbox p{
+	font-size: 1.3rem;
+}
+
+@media (min-width: 25rem){
+	h1{
+		font-size: 2rem;
+	}
+
+.home-textbox h1{
+		top: -0.3em;
+		padding: 0 1.7rem;
+	}
+}
+
+@media (min-width: 60rem){
+	h1{
+		font-size: 2.5rem;
+	}
+
+.home-textbox h1{
+		top: -0.5em;
+		padding: 0 2rem;
+	}
+}
+
