@@ -122,11 +122,11 @@ nav a:hover, nav a:focus{
 .button-green{
 	color: #00ff80;
 	font-weight: 700;
-	border-color: #00ff80;
+	border-color: rgba(0,255,128,0.5);
 }
 
 .button-green:hover, .button-green:focus{
-	background: #00ff80;
+	background: rgba(0,255,128,0.2);
 	color: #232323;
 }
 
@@ -136,3 +136,16 @@ nav a:hover, nav a:focus{
 
 }
 
+.info{
+	margin-bottom: 2em;
+	margin-top: 1em;
+}
+
+.socials{
+	display: inline-block;
+}
+
+.socials a{
+	margin-left: 1em;
+	margin-right: 1em;
+}
