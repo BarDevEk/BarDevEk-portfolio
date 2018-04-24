@@ -165,14 +165,23 @@ nav a:hover, nav a:focus{
 	margin-top:1rem
 }
 
-.socials{
+.contactAndSocials{
 	display: inline-block;
-	margin-top: 2rem;
+	margin-top: 0rem;
 }
 
-.socials a{
+.contactAndSocials a{
 	margin-left: 1em;
 	margin-right: 1em;
+}
+
+.contactAndSocials h2{
+	margin-bottom: 2rem;
+	padding-top: .5rem;
+}
+
+.contactAndSocials h3{
+	padding-top: 2rem;
 }
 
 .container{
@@ -308,5 +317,4 @@ background-image: url('img/concrete-texture.png');
 	background-size: cover;
 	background-position: center;
 }
-
 

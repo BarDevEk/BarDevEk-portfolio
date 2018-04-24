@@ -2,10 +2,10 @@
 	{
 		$.scrollTo(0);
 
-		$('#linkHome').click(function(){ $.scrollTo($('#home'),700); });
-		$('#linkAboutMe').click(function(){ $.scrollTo($('#aboutMe'),500); });
-		$('#linkContact').click(function(){ $.scrollTo($('#contact'),500); });
-		$('#linkProjects').click(function(){ $.scrollTo($('#projects'),500); });
+		$('#linkHome').click(function(){ $.scrollTo($('#home'),800); });
+		$('#linkAboutMe').click(function(){ $.scrollTo($('#aboutMe'),800); });
+		$('#linkContact').click(function(){ $.scrollTo($('#contact'),800); });
+		$('#linkProjects').click(function(){ $.scrollTo($('#projects'),800); });
 
 	}
 	);
