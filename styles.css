@@ -161,8 +161,8 @@ nav a:hover, nav a:focus{
 
 
 .info{
-	margin-bottom: 2em;
-	margin-top: 1em;
+	margin-bottom: .5em;
+	margin-top:1rem
 }
 
 .socials{
@@ -228,10 +228,26 @@ nav a:hover, nav a:focus{
 }
 
 
+hr {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    width: 16rem;
+}
+
 
 
 .portfolio{
-	margin: 3em 0;
+	/*margin: 3em 0;*/
+}
+
+.portfolio h1{
+	background-image: url('img/concrete-texture.png');
+	background-size: cover;
+	background-position: center;
+	margin:0;
+	padding: 1.5em;
+	padding-bottom: .5em;
 }
 
 .portfolio-item{
@@ -281,6 +297,12 @@ figcaption p{
 	.portfolio-item:hover .portfolio-description{
 		transform: translateY(0%);
 	}
+}
+
+footer{
+background-image: url('img/concrete-texture.png');
+	background-size: cover;
+	background-position: center;
 }
 
 
