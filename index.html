@@ -12,6 +12,7 @@
 <link rel="stylesheet" type="text/css" href="fontello/css/fontello.css">
 <link rel="stylesheet" type="text/css" href="styles.css">
 <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&amp;subset=latin-ext" rel="stylesheet">
+
 </head>
 <body>
 
@@ -21,20 +22,20 @@
 	<header>
 		<nav>
 			<ul>
-				<li><a href="">HOME</a></li>
-				<li><a href="">ABOUT ME</a></li>
-				<li><a href="">CONTACT</a></li>
+				<li><a id="linkHome" href="#home">HOME</a></li>
+				<li><a id="linkAboutMe" href="#aboutMe">ABOUT ME</a></li>
+				<li><a id="linkContact" href="#contact">CONTACT</a></li>
 			</ul>
 		</nav>
 
 	</header>
 
-	<section class="home-top">
+	<section id ="home" class="home-top">
 		<div class="container">
 			<h1 class="home-top-title">Web development is my pashion <br>
 				<span>Pashion that I'd like to share</span>
 			</h1>
-			<a href="" class="button button-green button-top">Take a look on my projects</a>
+			<a id="linkProjects" href="#projects" class="button button-green button-top">Take a look on my projects</a>
 		</div> <!-- container -->
 	</section>
 
@@ -42,7 +43,7 @@
 <div class="container">
 	<section class="home-about">
 
-		<div class="home-textbox">
+		<div id="aboutMe" class="home-textbox">
 			<h1>Who I am</h1>
 
 			<p>I am graduated engineer who is passionate about web development. I made the decision to change my career path and develop in IT sector as it will fulfill my eagerness to learn and professional growth. <br> </p>
@@ -51,7 +52,7 @@
 	</section>
 </div>
 
-	<section class="portfolio">
+	<section id="projects" class="portfolio">
 		<h1><em>Some of my work</em>
 			<hr>
 		</h1>
@@ -112,7 +113,7 @@
 
 	</section>
 
-	<footer>
+	<footer id="contact">
 	
 		<div class="socials">
 				<a href="https://github.com/BarDevEk"><i class="icon-github-circled"></i></a>
@@ -126,6 +127,10 @@
 	
 	</footer>
 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.scrollTo.min.js"></script>
+<script type="text/javascript" src="global.js"></script>
 
 </body>
 </html>
