@@ -164,7 +164,7 @@ nav a:hover, nav a:focus{
 
 .button-green:hover, .button-green:focus{
 	background: rgba(0,255,128,0.2);
-	color: #232323;
+	color: white;
 }
 
 .button-top{
@@ -296,7 +296,7 @@ hr {
 	right: 0rem;
 	z-index: 100;
 	bottom:  0rem;
-	background-color: rgba(0,0,0,.55);
+	background-color: rgba(0,0,0,.75);
 	color: white;
 	padding-bottom: 0.5rem;
 
