@@ -154,6 +154,7 @@ nav a:hover, nav a:focus{
 	text-transform: uppercase;
 	border: 3px solid;
 	padding: .9em 1.5em;
+	cursor: pointer;
 }
 
 .button-green{
@@ -172,9 +173,14 @@ nav a:hover, nav a:focus{
 	top: 4rem;
 }
 
-.button-small{
+.button-small, #close1, #close2, #close3, #close4, #close5, #close6{
 	font-size: 0.7rem;
 	font-weight: 700;
+}
+
+#close1, #close2, #close3, #close4, #close5, #close6{
+	position: relative;
+	margin-top: 1rem;
 }
 
 
@@ -248,9 +254,23 @@ nav a:hover, nav a:focus{
 		font-size: 2.5rem;
 	}
 
-.home-textbox h1{
+	.home-textbox{
+	width: 60% ;
+	right: -30rem;
+	top: -8.8rem;
+	
+	}
+
+	.home-about{
+		background-image: url('img/myPhoto.jpg');
+		background-repeat: no-repeat;
+		padding: 5rem;
+	}
+
+	.home-textbox h1{
 		top: -0.5em;
-		padding: 0 2rem;
+		left: 11em;
+		padding: 0 1rem;
 	}
 }
 
@@ -299,10 +319,21 @@ hr {
 	background-color: rgba(0,0,0,.75);
 	color: white;
 	padding-bottom: 0.5rem;
-
 }
 
-figcaption p{
+.portfolio-description-clicked{
+	position: absolute;
+	left:0rem;
+	right: 0rem;
+	z-index: 100;
+	top:  0rem;
+	background-color: rgba(0,0,0,.9);
+	color: white;
+	padding-bottom: 0.5rem;
+	height: 100%;
+}
+
+figcaption h5{
 	font-size: 1rem;
 	line-height: 0.3rem;
 }
@@ -328,11 +359,18 @@ figcaption p{
 	.portfolio-item:hover .portfolio-description{
 		transform: translateY(0%);
 	}
+	.portfolio-description-clicked{
+		transform: translateY(0%);
+	}
 }
 
 footer{
-background-image: url('img/concrete-texture.png');
+	background-image: url('img/concrete-texture.png');
 	background-size: cover;
 	background-position: center;
+}
+
+#hidden1, #hidden2, #hidden3, #hidden4, #hidden5, #hidden6{
+	display:none;
 }
 
