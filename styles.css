@@ -49,6 +49,8 @@ img{
 	right: 50px;
 	bottom: 50px;
 	display: none;
+	z-index: 200;
+
 }
 
 @media (min-width: 50rem){
@@ -61,6 +63,7 @@ img{
 .container{
 	width: 95%;
 	margin: 0 auto;
+
 }
 
 .home-top{
@@ -69,6 +72,7 @@ img{
 	background-position: center;
 	padding: 10em 0;
 }
+
 
 @media (min-width: 60rem){
 	.home-top{
@@ -79,7 +83,7 @@ img{
 @media(min-width: 60rem){
 	.home-top-title{
 		position: relative;
-		top: 0.8em;
+		top: -1.3em;
 	}
 }
 
@@ -170,7 +174,7 @@ nav a:hover, nav a:focus{
 
 .button-top{
 	position: relative;
-	top: 4rem;
+	top: 2rem;
 }
 
 .button-small, #close1, #close2, #close3, #close4, #close5, #close6{
@@ -257,16 +261,27 @@ nav a:hover, nav a:focus{
 
 	.home-textbox{
 	width: 60% ;
-	right: -30rem;
+	right: -22rem;
 	top: -8.8rem;
-	
-	}
+}
 
-	.home-about{
+.home-about{
 		background-image: url('img/myPhoto.jpg');
+		background-size: cover;
+		background-position: center;
 		background-repeat: no-repeat;
 		padding: 5rem;
 	}
+
+@media(min-width: 75rem){
+	.home-textbox{
+	width: 60% ;
+	right: -30rem;
+	top: -8.8rem;
+}
+}
+
+@media (min-width: 70rem){
 
 	.home-textbox h1{
 		top: -0.5em;
@@ -378,5 +393,23 @@ footer{
 #hidden1 p, #hidden2 p, #hidden3 p, #hidden4 p, #hidden5 p, #hidden6 p{
 	margin-left: 0.3rem;
 	margin-right: 0.3rem;
+	font-size: 0.9rem;
 }
 
+@media(max-width: 42rem){
+	#hidden1 p, #hidden2 p, #hidden3 p, #hidden4 p, #hidden5 p, #hidden6 p{
+		font-size: 0.8rem;	
+	}
+}
+
+@media(max-width: 37rem){
+	#hidden1 p, #hidden2 p, #hidden3 p, #hidden4 p, #hidden5 p, #hidden6 p{
+		font-size: 1rem;	
+	}
+}
+
+@media(max-width: 20rem){
+	#hidden1 p, #hidden2 p, #hidden3 p, #hidden4 p, #hidden5 p, #hidden6 p{
+		font-size: 0.8rem;	
+	}
+}
