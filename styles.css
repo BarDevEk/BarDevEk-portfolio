@@ -11,20 +11,13 @@ body{
 
 .logo{
 	position: relative;
-	top:12em;
+	top:0em;
 	width:200px;
 	height:200px;
 	padding:0;
 	margin:0;
 	float:left;
 }
-
-@media (min-width: 20rem){
-	.logo{
-		top: 0em;
-	}
-}
-
 
 .slogan{
 	position: absolute;
@@ -33,6 +26,18 @@ body{
 	left: 2.4em;
 	color: #b3b3b3;
 }
+
+
+
+@media (max-width: 22rem){
+	.logo{
+		display: none;
+	}
+	.slogan{
+		display: none;
+	}
+}
+
 
 
 img{
@@ -80,13 +85,6 @@ img{
 	}
 }
 
-@media(min-width: 60rem){
-	.home-top-title{
-		position: relative;
-		top: -1.3em;
-	}
-}
-
 h1{
 	font-weight: 300;
 	font-size: 1.7rem;
@@ -104,8 +102,10 @@ h1{
 	font-size: .8em;
 }
 
-@media (min-width: 60rem){
+@media(min-width: 60rem){
 	.home-top-title{
+		position: relative;
+		top: -1.3em;
 		font-size: 3rem;
 		padding-top: 4.3em;
 	}
@@ -115,7 +115,7 @@ h1{
 header{
 	position: absolute;
 	right: 0;
-	}
+}
 
 
 
@@ -127,6 +127,7 @@ nav ul{
 
 nav li{
 	margin: 1em;
+	display:inline-block;
 }
 
 nav a{
@@ -144,11 +145,16 @@ nav a:hover, nav a:focus{
 	color:#DDD;
 }
 
-@media (min-width: 40rem){
+@media (max-width: 53rem){
 	nav li{
-		display:inline-block;
+		display: block;
+		margin:0;
+	}
+	nav a{
+		padding: 0.5rem;
 	}
 }
+
 
 
 .button{
@@ -259,7 +265,8 @@ nav a:hover, nav a:focus{
 		font-size: 2.5rem;
 	}
 
-	.home-textbox{
+
+.home-textbox{
 	width: 60% ;
 	right: -22rem;
 	top: -8.8rem;
@@ -272,6 +279,7 @@ nav a:hover, nav a:focus{
 		background-repeat: no-repeat;
 		padding: 5rem;
 	}
+}
 
 @media(min-width: 75rem){
 	.home-textbox{
@@ -298,12 +306,6 @@ hr {
     width: 23rem;
 }
 
-
-
-.portfolio{
-	/*margin: 3em 0;*/
-}
-
 .portfolio h1{
 	background-image: url('img/concrete-texture.png');
 	background-size: cover;
@@ -320,11 +322,10 @@ hr {
 .portfolio-item{
 	position: relative;
 	margin:0;
+	float: left;
+	overflow: hidden;
 }
 
-.portfolio-item img{
-	display: block;
-}
 
 .portfolio-description{
 	position: absolute;
@@ -357,7 +358,7 @@ figcaption h5{
 @media(min-width: 37rem){
 	.portfolio-item{
 		width: 50%;
-		float:left;
+		float: left;
 	}
 }
 
@@ -367,7 +368,7 @@ figcaption h5{
 		float:left;
 		overflow: hidden;
 	}
-
+}
 	.portfolio-description{
 		transform: translateY(150%);
 	}
@@ -378,7 +379,7 @@ figcaption h5{
 	.portfolio-description-clicked{
 		transform: translateY(0%);
 	}
-}
+
 
 footer{
 	background-image: url('img/concrete-texture.png');
