@@ -5,26 +5,25 @@
 
 body{
 	font-family: 'Lato', sans-serif;
-	margin:0;
-	text-align: center;
+	margin     : 0;
+	text-align : center;
 }
 
 .logo{
-	position: relative;
-	top:0em;
-	width:200px;
-	height:200px;
-	padding:0;
-	margin:0;
-	float:left;
+	position:relative;
+	top     :0em;
+	width   :200px;
+	height  :200px;
+	padding :0;
+	margin  :0;
+	float   :left;
 }
 
 .slogan{
 	position: absolute;
-	top:0.8em;
-	color: white;
-	left: 2.4em;
-	color: #b3b3b3;
+	top     : 0.8em;
+	left    : 2.4em;
+	color   : #b3b3b3;
 }
 
 
@@ -46,15 +45,15 @@ img{
 }
 
 .scrollUp{
-	width:50px;
-	height: 50px;
+	width          : 50px;
+	height         : 50px;
 	text-decoration: none;
-	z-index: -100;
-	position: fixed;
-	right: 50px;
-	bottom: 50px;
-	display: none;
-	z-index: 2000;
+	z-index        : -100;
+	position       : fixed;
+	right          : 50px;
+	bottom         : 50px;
+	display        : none;
+	z-index        : 2000;
 
 }
 
@@ -72,10 +71,10 @@ img{
 }
 
 .home-top{
-	background-image: url("img/background.jpg");
-	background-size: cover;
+	background-image   : url("img/background.jpg");
+	background-size    : cover;
 	background-position: center;
-	padding: 10em 0;
+	padding            : 10em 0;
 }
 
 
@@ -92,20 +91,42 @@ h1{
 
 .home-top-title{
 	padding-top: 3.5em;
-	font-size: 3rem;
+	font-size  : 3rem;
 	font-weight: 900;
-	color: white;
+	color      : white;
+	text-shadow: black 0.05em 0.05em 0.1em;
 }
 
 .home-top-title span{
 	font-weight:  700;
-	font-size: .8em;
+	font-size  : .8em;
 }
 
-@media(min-width: 60rem){
+
+/*@media screen and (max-width: 900px) and (min-width: 600px)*/
+
+@media screen and (min-width: 60rem) and (max-height: 60rem){
 	.home-top-title{
 		position: relative;
-		top: -1.3em;
+		top: -2.3em;
+		font-size: 3rem;
+		padding-top: 4.3em;
+	}
+}
+
+@media screen and (min-width: 60rem) and (max-height: 30rem){
+	.home-top-title{
+		position: relative;
+		top: -4em;
+		font-size: 3rem;
+		padding-top: 4.3em;
+	}
+}
+
+@media screen and (min-width: 60rem) and (max-height: 23rem){
+	.home-top-title{
+		position: relative;
+		top: -5.5em;
 		font-size: 3rem;
 		padding-top: 4.3em;
 	}
@@ -242,6 +263,7 @@ nav a:hover, nav a:focus{
 	background-color: #383333;
 	padding: 0 1rem;
 	margin-bottom: 2em;
+	white-space:nowrap;
 
 }
 
@@ -257,44 +279,40 @@ nav a:hover, nav a:focus{
 .home-textbox h1{
 		top: -0.3em;
 		padding: 0 1.7rem;
+		left: 50%;
 	}
 }
 
 @media (min-width: 60rem){
-	h1{
+	.home-textbox h1{
 		font-size: 2.5rem;
+		left:70%;
+		padding: 0 1rem;
+		margin-bottom: 2em;
+		top: -1.25rem;
 	}
 
 
 .home-textbox{
 	width: 60% ;
 	right: -22rem;
-	top: -8.8rem;
+	top  : -8.8rem;
 }
 
 .home-about{
-		background-image: url('img/myPhoto.jpg');
-		background-size: cover;
+		background-image   : url('img/myPhoto.jpg');
+		background-size    : cover;
 		background-position: center;
-		background-repeat: no-repeat;
-		padding: 5rem;
+		background-repeat  : no-repeat;
+		padding            : 5rem;
 	}
 }
 
 @media(min-width: 75rem){
 	.home-textbox{
-	width: 60% ;
+	width: 60%;
 	right: -30rem;
-	top: -8.8rem;
-}
-}
-
-@media (min-width: 70rem){
-
-	.home-textbox h1{
-		top: -0.5em;
-		left: 11em;
-		padding: 0 1rem;
+	top  : -8.8rem;
 	}
 }
 

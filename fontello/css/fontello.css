@@ -57,3 +57,6 @@
  
 .icon-github-circled:before { content: '\f09b'; font-size: 40px; color: black;} /* '' */
 .icon-linkedin-squared:before { content: '\f30c'; font-size: 40px ; color: rgb(0,119,181);}  '' 
+
+.icon-github-circled:hover { transform: scale(1.2); content: '\f09b'; font-size: 40px; color: black;} /* '' */
+.icon-linkedin-squared:hover:before { content: '\f30c'; font-size: 40px ; color: rgb(0,119,181);}  '' 
