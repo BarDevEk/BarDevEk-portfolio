@@ -552,6 +552,28 @@ footer{
 	}
 }
 
+@media screen and (max-width: 70rem) and (max-height: 40rem){
+	.home-top-title{
+		padding-top: 6rem;
+		font-size: 3rem;
+	}
+}
+
+@media screen and (max-width: 70rem) and (max-height: 30rem){
+	.home-top-title{
+		padding-top: 1rem;
+		font-size: 3rem;
+	}
+}
+
+@media screen and (max-width: 70rem) and (max-height: 25rem){
+	.home-top-title{
+		padding-top: 0.1rem;
+		font-size: 3rem;
+	}
+}
+
+
 @media screen and (max-width: 55rem) and (max-height: 70rem){
 	.home-top-title{
 		padding-top: 15rem;
