@@ -402,9 +402,20 @@ footer{
 			background-repeat  : no-repeat;
 			padding            : 5rem;
 			z-index            : 1000;
-			min-height         : 55rem;
 		}
 	}
+
+@media screen and (min-width: 100rem){
+	.home-about{
+		min-height         : 55rem;
+	}
+}
+
+@media screen and (min-width: 130rem){
+	.home-about{
+		min-height         : 70rem;
+	}
+}
 
 @media screen and (min-width: 80rem) and (min-height: 80rem){
 	nav a{
