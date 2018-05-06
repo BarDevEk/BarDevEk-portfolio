@@ -369,27 +369,40 @@ footer{
 
 	.home-textbox h1{
 		font-size    : 2.5rem;
-		left         : 70%;
+		left         : 60%;
 		padding      : 0 1rem;
 		margin-bottom: 2em;
 		top          : -1.25rem;
 	}
 
+	@media(min-width: 105rem){
+		.home-textbox h1{
+			left         : 80%;
+		}
+	}
+
+	@media(min-width: 80rem){
+		.home-textbox h1{
+			left         : 70%;
+		}
+	}
+
 
 	.home-textbox{
-		width: 60%;
+		width: 50%;
 		max-width: 80em;
-		left: 40%;
+		left: 45%;
 		top  : -8.8rem;
 	}
 
 	.home-about{
 			background-image   : url("img/about.jpg");
 			background-size    : cover;
-			background-position: center top;
+			background-position: left top;
 			background-repeat  : no-repeat;
 			padding            : 5rem;
 			z-index            : 1000;
+			min-height         : 55rem;
 		}
 	}
 
