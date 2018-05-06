@@ -407,7 +407,7 @@ footer{
 
 @media screen and (min-width: 100rem){
 	.home-about{
-		min-height         : 55rem;
+		min-height         : 50rem;
 	}
 }
 
