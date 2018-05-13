@@ -1,0 +1,192 @@
+/***********************************            MEDIA - HOME-TOP-TITLE             ***************************/
+
+@media screen and (min-width: 100.01rem) and (min-height: 153.01rem){
+	.home-top-title{
+		/*padding-top: 70rem;*/
+		font-size: 8rem;
+	}
+}
+
+@media screen and (min-width: 100.01rem) and (max-height: 153rem){
+	.home-top-title{
+/*		padding-top: 50rem;*/
+		font-size: 6rem;
+	}
+}
+
+@media screen and (min-width: 100.01rem) and (max-height: 124rem){
+	.home-top-title{
+/*		padding-top: 40rem;*/
+		font-size: 5rem;
+	}
+}
+
+@media screen and (min-width: 100.01rem) and (max-height: 100rem){
+	.home-top-title{
+/*		padding-top: 32rem;*/
+		font-size: 4rem;
+	}
+}
+
+@media screen and (min-width: 100.01rem) and (max-height: 83rem){
+	.home-top-title{
+/*		padding-top: 23rem;*/
+		font-size: 4rem;
+	}
+}
+
+@media screen and (min-width: 100.01rem) and (max-height: 52rem){
+	.home-top-title{
+/*		padding-top: 12rem;*/
+		font-size: 4rem;
+	}
+}
+
+@media screen and (min-width: 100.01rem) and (max-height: 42rem){
+	.home-top-title{
+/*		padding-top: 2rem;*/
+		font-size: 4rem;
+	}
+}
+
+@media screen and (max-width: 100rem) and (max-height: 1000rem){
+	.home-top-title{
+/*		padding-top: 29rem;*/
+		font-size: 4rem;
+	}
+}
+
+@media screen and (max-width: 100rem) and (max-height: 58rem){
+	.home-top-title{
+/*		padding-top: 11rem;*/
+		font-size: 4rem;
+	}
+}
+
+@media screen and (max-width: 100rem) and (max-height: 41rem){
+	.home-top-title{
+/*		padding-top: 2rem;*/
+		font-size: 4rem;
+	}
+}
+
+@media screen and (max-width: 80rem) and (max-height: 90rem){
+	.home-top-title{
+/*		padding-top: 29rem;*/
+		font-size: 3.5rem;
+	}
+}
+
+@media screen and (max-width: 80rem) and (max-height: 80rem){
+	.home-top-title{
+/*		padding-top: 23rem;*/
+		font-size: 3.5rem;
+	}
+}
+
+@media screen and (max-width: 80rem) and (max-height: 53rem){
+	.home-top-title{
+/*		padding-top: 14rem;*/
+		font-size: 3.5rem;
+	}
+}
+
+@media screen and (max-width: 80rem) and (max-height: 43rem){
+	.home-top-title{
+/*		padding-top: 8rem;*/
+		font-size: 3.5rem;
+	}
+}
+
+@media screen and (max-width: 80rem) and (max-height: 37rem){
+	.home-top-title{
+/*		padding-top: 1rem;*/
+		font-size: 3rem;
+	}
+}
+
+@media screen and (max-width: 70rem) and (max-height: 90rem){
+	.home-top-title{
+/*		padding-top: 26rem;*/
+		font-size: 3rem;
+	}
+}
+
+@media screen and (max-width: 70rem) and (max-height: 80rem){
+	.home-top-title{
+/*		padding-top: 20rem;*/
+		font-size: 3rem;
+	}
+}
+
+@media screen and (max-width: 70rem) and (max-height: 70rem){
+	.home-top-title{
+/*		padding-top: 15rem;*/
+		font-size: 3rem;
+	}
+}
+
+@media screen and (max-width: 70rem) and (max-height: 40rem){
+	.home-top-title{
+/*		padding-top: 6rem;*/
+		font-size: 3rem;
+	}
+}
+
+@media screen and (max-width: 70rem) and (max-height: 30rem){
+	.home-top-title{
+/*		padding-top: 1rem;*/
+		font-size: 3rem;
+	}
+}
+
+@media screen and (max-width: 70rem) and (max-height: 25rem){
+	.home-top-title{
+/*		padding-top: 0.1rem;*/
+		font-size: 3rem;
+	}
+}
+
+
+@media screen and (max-width: 55rem) and (max-height: 70rem){
+	.home-top-title{
+/*		padding-top: 15rem;*/
+		font-size: 3rem;
+	}
+}
+
+@media screen and (max-width: 55rem) and (max-height: 30rem){
+	.home-top-title{
+/*		padding-top: 2rem;*/
+		font-size: 3rem;
+	}
+}
+
+@media screen and (max-width: 43rem) and (max-height: 30rem){
+	.home-top-title{
+/*		padding-top: 1rem;*/
+		font-size: 2.7rem;
+	}
+}
+
+@media screen and (max-width: 43rem) and (max-height: 22rem){
+	.home-top-title{
+/*		padding-top: 1rem;*/
+		font-size: 2rem;
+	}
+}
+
+@media screen and (max-width: 35rem) and (max-height: 55rem){
+	.home-top-title{
+/*		padding-top: 10rem;*/
+		font-size: 2.7rem;
+	}
+}
+
+
+@media screen and (max-width: 25rem) and (max-height: 45rem){
+	.home-top-title{
+/*		padding-top: 7rem;*/
+		font-size: 2.5rem;
+	}
+}
